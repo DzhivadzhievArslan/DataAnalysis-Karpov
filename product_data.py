@@ -6,3 +6,5 @@ daily_users = df.groupby('day') \
     .agg({'users': 'max'})
 
 print(daily_users)
+
+# first DAU
