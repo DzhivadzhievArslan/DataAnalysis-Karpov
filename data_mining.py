@@ -7,3 +7,7 @@ def get_df_shape(file_path):
 def get_df_dtypes(file_path):
     df = pd.read_csv(file_path)
     return df.dtypes
+
+def get_df_columns(file_path):
+    df = pd.read_csv(file_path)
+
